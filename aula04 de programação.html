@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<!--Metadados do documento -->
+		<meta charset="utf-8">
+		<meta name="description" content="Aula 4, CSS, regras e aplicacoes">
+		<meta name="author" content="Renan Pio">
+		<meta name="keywords" content="html,css,regras,seletores,aula4,programacao">
+		<meta name="robots" content="index,follow">
+
+		<!--Referência para uma folha de estilo em arquivo externo -->
+		<link rel="stylesheet" href="endereço do arquivo css externo">
+
+		<!-- Espaço para uma folha de estilo incorporada -->
+		<style>
+		*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+        }
+        body{
+        
+            background-color: brown;
+            background-image: url(alek.jpg);
+            background-repeat: no-repeat;
+            background: position 200px 150px;
+            background-attachment: scroll;
+            
+        }
+        #wrapper{
+            border-width: 2px;
+            border-style: solid;
+            border-color: white;
+            width:80vw ;
+            height:80vh ;
+        }
+        header{
+width:100% ;
+height:30% ;        
+border: 1px solid #fff;
+background-color: cyan;
+        }
+        nav{    
+            width:100% ;
+height:5% ;        
+border: 1px solid #fff;
+        }
+        aside{  
+            width:25% ;
+height:60% ;        
+border: 1px solid #fff;
+clear: both;
+float: left;
+        }
+        section{    
+            width:75% ;
+height:60% ;        
+border: 1px solid #fff;
+float: left;
+        }
+        footer{ 
+            width:100% ;
+height:5% ;        
+border: 1px solid #fff;
+clear: both;
+        }
+		</style>
+
+	
+	</head>
+	<body>
+		<div id="wrapper" class="inserir classes da div">
+			<header>
+                header
+			</header>
+			<nav>
+                nav
+			</nav>
+			<aside>
+                aside
+			</aside>
+			<section>
+                section
+			</section>
+			<footer>
+                footer
+			</footer>
+		</div>	
+	</body>	
+</html>
